@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <Version>1.0.0.0</Version>
+    <Author>Mana</Author>
+    <Name>Pop-up ads</Name>
+    <Punchline>For when party finder ads aren't enough.</Punchline>
+    <Description>Do you fear there's a lack of advertisements in your subscription-based MMO? Fear no longer, for the answer has arrived.</Description>
+    <RepoUrl>https://github.com/LuckyHub-rep/PUA</RepoUrl>
+    <Tags>ads;popups;notifications;dumb;joke</Tags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\\Data\\PopupImages\\**\\*.*" />
+    <EmbeddedResource Include="..\\Data\\PopupSounds\\**\\*.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="3.1.0" />
+  </ItemGroup>
+</Project>

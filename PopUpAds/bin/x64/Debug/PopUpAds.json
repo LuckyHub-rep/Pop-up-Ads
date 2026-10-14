@@ -1,0 +1,16 @@
+{
+  "Author": "Mana",
+  "Name": "Pop-up Ads",
+  "InternalName": "PopUpAds",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Do you fear there's a lack of advertisements in your subscription-based MMO? Fear no longer, for the answer has arrived.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://https://github.com/LuckyHub-rep/PUA",
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "For when party finder ads aren't enough.",
+  "AcceptsFeedback": true
+}
